@@ -1,0 +1,29 @@
+{
+  "name": "node_react",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000n\u0000o\u0000d\u0000e\u0000_\u0000r\u0000e\u0000a\u0000c\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pozitronkx/node_react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pozitronkx/node_react/issues"
+  },
+  "homepage": "https://github.com/Pozitronkx/node_react#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": "v24.14.0"
+  }
+}
