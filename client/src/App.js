@@ -17,6 +17,15 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>{!data ? "Loading..." : data}</p>
       </header>
+
+      <form 
+        action="../../post"
+        method="post"
+        className="form">
+        <button type="submit">
+            Connected?
+        </button>
+      </form>
     </div>
   );
 }
